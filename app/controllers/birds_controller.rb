@@ -1,7 +1,7 @@
 class BirdsController < ApplicationController 
   
   def index 
-    @bird = Bird.all
+    @birds = Bird.all
     render 'birds/index.html.erb'
   end 
   
